@@ -4,16 +4,16 @@ Welcome to my personal portfolio webpage!
 
 ## Features
 
-- **Responsive Design:** The webpage adjusts gracefully to different screen sizes.
-- **Project Showcase:** Highlights of my key projects with descriptions and links.
-- **Skills Overview:** A summary of my technical skills and expertise.
+- **Responsive Design:** The webpage adjusts gracefully to multiple screen sizes.
+- **Project Showcase:** Highlights of my key projects.
+- **Skills Overview:** A summary of my technical skills.
 - **Contact Information:** Ways to get in touch with me.
 
 ## Technologies Used
 
 - **HTML**: For the structure of the webpage.
 - **CSS**: For styling and layout.
-- **JavaScript**: For interactive elements (if applicable).
+- **JavaScript**: For interactive elements
 
 
 1. **Clone the Repository**
