@@ -119,3 +119,8 @@ video {
         margin-top: 95px;
     }
 }
+@media (max-width: 1024px) {
+    .Top {
+        display: none;
+    }
+}
