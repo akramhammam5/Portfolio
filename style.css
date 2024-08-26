@@ -80,6 +80,10 @@ video {
         margin-top: 100px;
         font-size: 35px;
     }
+    .Top h3 {
+        color: white;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 480px) {
@@ -88,9 +92,10 @@ video {
         font-size: 30px;
     }
 
-    .Top h3 {
-        display: flex;
-        margin-top: 20px;
+    .Top {
+        display: block;
+        color: white;
+        margin: 10px auto;
     }
 
     video {
