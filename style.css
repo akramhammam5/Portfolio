@@ -81,9 +81,8 @@ video {
         font-size: 35px;
     }
     .Top {
-        display: flex;
-        color: white;
-        margin-top: -30px;
+        display: none;
+
     }
 
     header ul {
@@ -102,9 +101,8 @@ video {
         font-size: 30px;
     }
     .Top {
-        display: flex;
-        color: white;
-        margin-top: -30px;
+        display: none;
+        
     }
 
 
