@@ -92,7 +92,7 @@ video {
         list-style: none;
         font-style: italic;
         justify-content: space-evenly;
-        margin-top: 65px;
+        margin-top: 95px;
     }
 }
 
@@ -112,7 +112,12 @@ video {
         width: 100%; 
         height: auto;
     }
-    ul li{
-        justify-content: space-around;
+    header ul {
+        display: flex;
+        color: white;
+        list-style: none;
+        font-style: italic;
+        justify-content: space-evenly;
+        margin-top: 95px;
     }
 }
