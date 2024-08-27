@@ -110,7 +110,7 @@ video {
     display: flex;
     border: 3px solid rgb(222, 129, 16);
     border-radius: 12px;
-    width: 30%;
+    width: 50%;
     height: auto;
     margin: 0 auto;
     margin-top: 150px;
@@ -120,7 +120,7 @@ video {
     display: flex;
     border: 3px solid rgb(222, 129, 16);
     border-radius: 12px;
-    width: 30%;
+    width: 50%;
     height: auto;
     margin: 0 auto;
     
@@ -130,7 +130,7 @@ video {
     display: flex;
     border: 3px solid bisque;
     border-radius: 12px;
-    width: 30%;
+    width:50%;
     height: auto;
     margin: 0 auto;
 }
@@ -139,41 +139,41 @@ video {
     display: flex;
     border: 3px solid bisque;
     border-radius: 12px;
-    width: 30%;
+    width: 50%;
     height: auto;
     margin: 0 auto;
 }
 
 #link1 #img1 {
-    width: 30%; 
+    width: 50%; 
     transition: width 0.3s ease; 
 }
 #link1:hover #img1 {
-    width: 50%; 
+    width: 70%; 
 }
 
 #link2 #img2 {
-    width: 30%; 
+    width: 50%; 
     transition: width 0.3s ease; 
 }
 #link2:hover #img2 {
-    width: 50%; 
+    width: 70%; 
 }
 
 #link3 #img3 {
-    width: 30%; 
+    width: 50%; 
     transition: width 0.3s ease; 
 }
 #link3:hover #img3 {
-    width: 50%; 
+    width: 70%; 
 }
 
 #link4 #img4 {
-    width: 30%;
+    width: 50%;
     transition: width 0.3s ease;
 }
 #link4:hover #img4 {
-    width: 50%; 
+    width: 70%; 
 }
 
 @media (max-width: 768px) {
@@ -240,7 +240,7 @@ video {
         display: flex;
         border: 3px solid rgb(222, 129, 16);
         border-radius: 12px;
-        width: 80%;
+        width: 100%;
         height: auto;
         margin: 0 auto;
         margin-top: 150px;
@@ -250,7 +250,7 @@ video {
         display: flex;
         border: 3px solid rgb(222, 129, 16);
         border-radius: 12px;
-        width: 80%;
+        width: 100%;
         height: auto;
         margin: 0 auto;
         
@@ -260,7 +260,7 @@ video {
         display: flex;
         border: 3px solid bisque;
         border-radius: 12px;
-        width: 80%;
+        width: 100%;
         height: auto;
         margin: 0 auto;
     }
@@ -269,7 +269,7 @@ video {
         display: flex;
         border: 3px solid bisque;
         border-radius: 12px;
-        width: 80%;
+        width:100%;
         height: auto;
         margin: 0 auto;
     }
