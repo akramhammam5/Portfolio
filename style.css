@@ -1,4 +1,7 @@
 
+html{
+    scroll-behavior: smooth;
+}
 * {
     box-sizing: border-box;
 }
@@ -124,6 +127,6 @@ video {
         display: none;
     }
     header ul{
-        margin: 0 auto;
+       margin-left: -25px;
     }
 }
