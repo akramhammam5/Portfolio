@@ -11,9 +11,9 @@ Welcome to my personal portfolio webpage!
 
 ## Technologies Used
 
-- **HTML**: For the structure of the webpage.
-- **CSS**: For styling and layout.
-- **JavaScript**: For interactive elements
+- **HTML**
+- **CSS**
+- **JavaScript**
 
 
 1. **Clone the Repository**
