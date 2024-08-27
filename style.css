@@ -173,7 +173,7 @@ video {
     transition: width 0.3s ease;
 }
 #link4:hover #img4 {
-    width: 70%; 
+    width: 50%; 
 }
 
 @media (max-width: 768px) {
@@ -222,11 +222,7 @@ video {
 }
 @media (max-width: 1024px) {
     
-    header ul {
-        margin: 0 auto;
-        margin-top: -38px;
-        font-size: 18px; 
-    }
+
     .Top h1{
         margin-top: 0 auto;
     }
