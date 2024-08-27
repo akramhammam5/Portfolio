@@ -123,4 +123,7 @@ video {
     .Top {
         display: none;
     }
+    header ul{
+        margin: 0 auto;
+    }
 }
