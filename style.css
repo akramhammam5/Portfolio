@@ -288,9 +288,18 @@ video {
 }
 @media (max-width: 1024px) {
     
-
+    .Top h3 {
+        color: white;
+        margin: 50px 30px 0;
+    }
     .Top h1{
         margin-top: 0 auto;
+    }
+    .info h1 {
+        color: white;
+        margin-top: 300px;
+        text-align: center;
+        font-size: 30px;
     }
     .Top {
         display: none;
@@ -389,7 +398,7 @@ video {
     transition: width 0.3s ease;
 }
 #s4:hover{
-    width: 25%;
+    width: 35%;
     transition: width 0.3s ease;
 }
 }
