@@ -336,13 +336,41 @@ video {
         height: auto;
         margin: 0 auto;
     }
+    #link1 #img1 {
+        width: 90%; 
+        transition: width 0.3s ease; 
+    }
+    #link2 #img2 {
+        width: 90%; 
+        transition: width 0.3s ease; 
+    }
+    #link3 #img3 {
+        width: 90%; 
+        transition: width 0.3s ease; 
+    }
+    #link4 #img4 {
+        width: 90%; 
+        transition: width 0.3s ease; 
+    }
+    #link1:hover #img1 {
+        width: 100%; 
+    }
+    #link2:hover #img2 {
+        width: 100%; 
+    }
+    #link3:hover #img3 {
+        width: 100%; 
+    }
+    #link4:hover #img4 {
+        width: 100%; 
+    }
     .image-container:hover p {
         font-size: 11px;
         transition: width 0.3s ease;
     }
 
 #s1:hover{
-    width: 45%;
+    width: 35%;
     transition: width 0.3s ease;
 }
 #s2:hover{
@@ -354,7 +382,7 @@ video {
     transition: width 0.3s ease;
 }
 #s4:hover{
-    width: 45%;
+    width: 25%;
     transition: width 0.3s ease;
 }
 }
