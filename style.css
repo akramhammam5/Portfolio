@@ -217,19 +217,19 @@ video {
 }
 
 #s1:hover{
-    width: 25%;
+    width: 35%;
     transition: width 0.3s ease;
 }
 #s2:hover{
-    width: 25%;
+    width: 35%;
     transition: width 0.3s ease;
 }
 #s3:hover{
-    width: 25%;
+    width: 35%;
     transition: width 0.3s ease;
 }
 #s4:hover{
-    width: 25%;
+    width: 35%;
     transition: width 0.3s ease;
 }
 .image-container:hover p {
@@ -297,7 +297,6 @@ video {
     }
     .info h1 {
         color: white;
-        margin-top: 300px;
         text-align: center;
         font-size: 30px;
     }
@@ -385,6 +384,7 @@ video {
         border: 1px solid bisque;
         border-radius: 10px;
     }
+
 #s1:hover{
     width: 90%;
     transition: width 0.3s ease;
