@@ -62,18 +62,18 @@ header ul a:hover {
     text-align: center;
     font-size: medium;
 }
-.info a{
+.button{
     text-decoration: none;
+    text-align: center;
 }
 #butt {
+    display: inline-block;
     color: rgb(11, 0, 0);
-    text-align: center;
     font-size: medium;
     border-radius: 9px;
     padding: 15px 30px;
     cursor: pointer; 
     margin: 30px auto;
-    display: block;
 }
 #butt:hover{
     background-color:rgb(32, 30, 30);
@@ -106,44 +106,44 @@ video {
     font-family: "Lucida Console", "Courier New", monospace;
     opacity: 30%;
 }
-.who #img1{
-    display: flex;
+.images #img1{
     border: 3px solid rgb(222, 129, 16);
     border-radius: 12px;
     width: 50%;
     height: auto;
     margin: 0 auto;
     margin-top: 150px;
-    
+    margin-top: 20px;
 }
-.who #img2{
-    display: flex;
+.images #img2{
     border: 3px solid rgb(222, 129, 16);
     border-radius: 12px;
     width: 50%;
     height: auto;
     margin: 0 auto;
-    
+    margin-top: 20px;
 }
 
-.who #img3{
-    display: flex;
+.images #img3{
     border: 3px solid bisque;
     border-radius: 12px;
     width:50%;
     height: auto;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
-.who #img4{
-    display: flex;
+.images #img4{
     border: 3px solid bisque;
     border-radius: 12px;
     width: 50%;
     height: auto;
     margin: 0 auto;
+    margin-top: 20px;
 }
-
+.images{
+   text-align: center;
+}
 #link1 #img1 {
     width: 50%; 
     transition: width 0.3s ease; 
@@ -173,7 +173,7 @@ video {
     transition: width 0.3s ease;
 }
 #link4:hover #img4 {
-    width: 50%; 
+    width: 70%; 
 }
 
 @media (max-width: 768px) {
