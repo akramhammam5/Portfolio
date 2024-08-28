@@ -175,6 +175,72 @@ video {
 #link4:hover #img4 {
     width: 70%; 
 }
+.services h1{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.services p{
+    text-align: center;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    opacity: 60%;
+}
+.simages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Small gap between items */
+    justify-content: center;
+}
+
+.image-container {
+    border: 3px solid rgb(93, 83, 83);
+    border-radius: 12px;
+    width: calc(30% - 10px); /* Adjust width for small gap */
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgb(69, 79, 85);
+    text-align: center;
+}
+
+.image-container img {
+    width: 80%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.image-container p.description {
+    margin-top: 10px;
+    font-size: 12.5px;
+    color: #ffffff;
+}
+
+#s1:hover{
+    width: 25%;
+    transition: width 0.3s ease;
+}
+#s2:hover{
+    width: 25%;
+    transition: width 0.3s ease;
+}
+#s3:hover{
+    width: 25%;
+    transition: width 0.3s ease;
+}
+#s4:hover{
+    width: 25%;
+    transition: width 0.3s ease;
+}
+.image-container:hover p {
+    font-size: 14px;
+    transition: width 0.3s ease;
+}
+
+#s3, #s4 {
+    border-color: rgb(93, 83, 83);
+}
+
 
 @media (max-width: 768px) {
     .info h1 {
@@ -270,4 +336,25 @@ video {
         height: auto;
         margin: 0 auto;
     }
+    .image-container:hover p {
+        font-size: 11px;
+        transition: width 0.3s ease;
+    }
+
+#s1:hover{
+    width: 45%;
+    transition: width 0.3s ease;
+}
+#s2:hover{
+    width: 35%;
+    transition: width 0.3s ease;
+}
+#s3:hover{
+    width: 35%;
+    transition: width 0.3s ease;
+}
+#s4:hover{
+    width: 45%;
+    transition: width 0.3s ease;
+}
 }
