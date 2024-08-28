@@ -29,7 +29,7 @@ body {
 header ul {
     position: fixed;
     width: 100%;      
-    background-color: transparent;
+    background-color:transparent;
     z-index: 1000;
     display: flex;
     color: white;
@@ -40,13 +40,13 @@ header ul {
     transition: opacity 0.3s ease;
 }
 
-header ul a {
+.lists header ul a {
     text-decoration: none;
     color: white;
 }
 
 header ul a:hover {
-    color: rgb(22, 209, 230);
+    color: rgb(221, 213, 213);
     text-shadow: 2px 1px 2px rgba(200, 179, 179, 0.992);
 }
 
@@ -90,7 +90,7 @@ video {
 }
 .who h1{
     text-align: center;
-    margin-top: 350px;
+    margin-top: 180px;
     color: white;
     font-family: "Lucida Console", "Courier New", monospace;
 }
@@ -177,7 +177,7 @@ video {
 }
 .services h1{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 170px;
     color: white;
     font-family: "Lucida Console", "Courier New", monospace;
 }
@@ -299,12 +299,16 @@ video {
         color: white;
         text-align: center;
         font-size: 30px;
+        margin-top: 150px;
     }
     .Top {
         display: none;
     }
     header ul{
        margin-left: -25px;
+    }
+    .who{
+        margin: 0 auto;
     }
     .who #img1{
         display: flex;
@@ -313,7 +317,6 @@ video {
         width: 100%;
         height: auto;
         margin: 0 auto;
-        margin-top: 150px;
         
     }
     .who #img2{
@@ -383,7 +386,12 @@ video {
         border: 1px solid bisque;
         border-radius: 10px;
     }
-
+    .services h1{
+        text-align: center;
+        margin-top: 20px;
+        color: white;
+        font-family: "Lucida Console", "Courier New", monospace;
+    }
 #s1:hover{
     width: 90%;
     transition: width 0.3s ease;
