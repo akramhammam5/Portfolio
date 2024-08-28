@@ -368,7 +368,14 @@ video {
         font-size: 11px;
         transition: width 0.3s ease;
     }
-
+    video {
+        display: block;
+        width: 80%; 
+        max-width: 580px; 
+        margin: 0 auto; 
+        border: 1px solid bisque;
+        border-radius: 10px;
+    }
 #s1:hover{
     width: 35%;
     transition: width 0.3s ease;
