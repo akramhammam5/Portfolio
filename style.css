@@ -203,10 +203,11 @@ video {
 }
 
 .image-containeer img {
+    display: flex;
     max-width: 100%;
     border: 2px solid black;
     border-radius: 8px;
-    margin-left: 450px;
+    margin-left: 950px;
     margin-bottom: 250px;
 }
 
@@ -405,7 +406,11 @@ hr {
         
     }
     .image-container{
-        width: 80%;
+
+        width: 100%;
+    }
+    .image-containeer{
+        width: 100%;
     }
     ul {
         position: fixed;
@@ -424,6 +429,20 @@ hr {
     .Top h3{
         display: none;
     }
+#link1 #img1,
+#link2 #img2,
+#link3 #img3,
+#link4 #img4 {
+    width: 70%;
+    transition: width 0.3s ease;
+}
+
+#link1:hover #img1,
+#link2:hover #img2,
+#link3:hover #img3,
+#link4:hover #img4 {
+    width: 90%;
+}
 }   
 
 @media (max-width: 600px) {
