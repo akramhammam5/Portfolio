@@ -201,8 +201,8 @@ document.addEventListener("scroll", function () {
 });
 document.addEventListener("scroll", function () {
     const sections = document.querySelectorAll(".services");
-    const fadeStart = 150; 
-    const fadeEnd = 500;   
+    const fadeStart = 250; 
+    const fadeEnd = 800;   
 
     sections.forEach(section => {
         const rect = section.getBoundingClientRect();
@@ -225,8 +225,8 @@ document.addEventListener("scroll", function () {
 });
 document.addEventListener("scroll", function () {
     const sections = document.querySelectorAll(".simages");
-    const fadeStart = 250; 
-    const fadeEnd = 1000;   
+    const fadeStart = 50; 
+    const fadeEnd = 1500;   
 
     sections.forEach(section => {
         const rect = section.getBoundingClientRect();
