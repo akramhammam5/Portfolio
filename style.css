@@ -207,8 +207,8 @@ video {
     max-width: 100%;
     border: 2px solid black;
     border-radius: 8px;
-    margin-left: 950px;
     margin-bottom: 250px;
+    margin-left: 200px;
 }
 
 .form-content {
@@ -407,10 +407,12 @@ hr {
     }
     .image-container{
 
-        width: 100%;
+        width: 70%;
+        margin-left: 15px;
     }
     .image-containeer{
         width: 100%;
+        margin-left: -10px;
     }
     ul {
         position: fixed;
@@ -445,15 +447,34 @@ hr {
 }
 }   
 
-@media (max-width: 600px) {
-    
-}
-
-@media (max-width: 768px) {
-  
-}
-
-@media (max-width: 480px) {
-  
+@media screen and (max-width: 768px) {
+    #link1 #img1,
+    #link2 #img2,
+    #link3 #img3,
+    #link4 #img4 {
+        width: 85%; 
     }
 
+    #link1:hover #img1,
+    #link2:hover #img2,
+    #link3:hover #img3,
+    #link4:hover #img4 {
+        width: 100%; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #link1 #img1,
+    #link2 #img2,
+    #link3 #img3,
+    #link4 #img4 {
+        width: 90%; 
+    }
+
+    #link1:hover #img1,
+    #link2:hover #img2,
+    #link3:hover #img3,
+    #link4:hover #img4 {
+        width: 100%; 
+    }
+}
