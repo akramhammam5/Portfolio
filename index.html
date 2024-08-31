@@ -8,6 +8,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+
 </head>
 <body>
    
@@ -51,7 +52,7 @@
 A Computer Science graduate from Misr International University.<br>
  I have a strong passion for computers, networks, and Linux.<br>
   While my initial interest was in Cybersecurity,<br> I've shifted my focus towards Linux and Python development. <br>
-    Beyond your professional skills,
+    
         </p>
         <p id="port">Some of my Projects:</p>
 
@@ -91,5 +92,49 @@ A Computer Science graduate from Misr International University.<br>
             <p class="description">I am skilled in AI development, implementing cutting-edge AI solutions that enhance<br> deliver unique user experiences.</p>
         </div>
     </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><hr><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    <div class="content-container" id="contact">
+        <div class="image-containeer">
+            <img src="Images/Call.jpeg" alt="Anime Call">
+        </div>
+        <div class="form-content">
+            <h3 class="contact-heading">Contact Me!</h3>
+            <form class="form" id="Form">
+                <input type="text" name="user_name" placeholder="Your name" class="input-field"><br>
+                <input type="email" name="user_email" placeholder="Email address" class="input-field"><br>
+                <input type="submit" value="Submit" class="submit-button">
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <a href="https://www.linkedin.com/in/akram-amr-086986236/" target="_blank" class="footer-link">
+                <img src="Images/linkedin.png" alt="LinkedIn" class="footer-icon">
+            </a>
+            <a href="https://www.instagram.com/l0ne.w0lf12" target="_blank" class="footer-link">
+                <img src="Images/instagram.png" alt="Instagram" class="footer-icon">
+            </a>
+        </div>
+    </footer>
 </body>
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        emailjs.init('Vq_GS8dDiaw5NEDKu');
+
+        document.getElementById('Form').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            emailjs.sendForm('service_6nzgugo', 'template_atqbs8r', this)
+                .then(function(response) {
+                    alert('Message sent successfully!');
+                    console.log('Success:', response);
+                }, function(error) {
+                    alert('Failed to send message. Please try again.');
+                    console.log('Error:', error);
+                });
+        });
+    });
+</script>
 </html>
