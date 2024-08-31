@@ -105,7 +105,7 @@ document.addEventListener("scroll", function () {
 });
 document.addEventListener("scroll", function () {
     const sections = document.querySelectorAll("#link1");
-    const fadeStart = 500; 
+    const fadeStart = 400; 
     const fadeEnd = 800;   
 
     sections.forEach(section => {
@@ -129,8 +129,8 @@ document.addEventListener("scroll", function () {
 });
 document.addEventListener("scroll", function () {
     const sections = document.querySelectorAll("#link2");
-    const fadeStart = 500; 
-    const fadeEnd = 800;   
+    const fadeStart = 400; 
+    const fadeEnd = 800;    
 
     sections.forEach(section => {
         const rect = section.getBoundingClientRect();
@@ -153,8 +153,8 @@ document.addEventListener("scroll", function () {
 });
 document.addEventListener("scroll", function () {
     const sections = document.querySelectorAll("#link3");
-    const fadeStart = 500; 
-    const fadeEnd = 800;   
+    const fadeStart = 400; 
+    const fadeEnd = 800;    
 
     sections.forEach(section => {
         const rect = section.getBoundingClientRect();
@@ -177,8 +177,8 @@ document.addEventListener("scroll", function () {
 });
 document.addEventListener("scroll", function () {
     const sections = document.querySelectorAll("#link4");
-    const fadeStart = 500; 
-    const fadeEnd = 800;   
+    const fadeStart = 400; 
+    const fadeEnd = 800;    
 
     sections.forEach(section => {
         const rect = section.getBoundingClientRect();
